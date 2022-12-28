@@ -1,0 +1,41 @@
+# if you want your prefix to be disabled, leave as it originally was, or leave it as ''.
+prefix: ""
+anti-cheat:
+  # alert-permission is the permission used to alert staff members. whoever has this permission enabled will receive all anti-cheat alerts.
+  alert-permission: staffy.alerts
+
+  # if custom-enchants is set to true, that means you have a plugin that uses custom, non-vanilla enchantments. Please make a ticket
+  custom-enchants: false
+
+    # placeholders
+  # ------------------------------------------------------------------
+    # > ALL <
+    # %player% - gets player's username.
+    # > SPEED <
+    # %mps% - gets player's Meters Per Second (Blocks Per Second)
+  # ------------------------------------------------------------------
+
+  # speed-alert is alerts for players using abnormal speed (ping and speed effect is calculated)
+  # permission is the permission used to alert staff members. whoever has this permission enabled will receive speed anti-cheat alerts.
+  # if alert is set to true, players with the alert-permission will receive alerts accordingly.
+  # if kick is set to true, it will kick players who have are detected using abnormal speed.
+  # if ban is set to true, it will ban players who have are detected using abnormal speed.
+  speed-alert:
+    permission: staff.alerts.speed
+    alert:
+      enabled: true
+      message: "&e%player% &cwas detected using abnormal speed. &6(%mps% MPS)"
+    kick:
+      enabled: false
+      message: "You have been kicked for having an abnormal speed check."
+    ban:
+      enabled: false
+      message: "You have been banned for having an abnormal speed check."
+
+mongo-db:
+
+  # client is mongodb+srv://<username>:<password>@<cluster>... provided in the Connect tab on your cluster. plugin is currently limited to 1 client.
+  client: ""
+
+  # database is the database name under the Collections tab. plugin is currently limited to 1 database.
+  database: ""

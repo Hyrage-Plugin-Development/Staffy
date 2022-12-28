@@ -1,0 +1,20 @@
+name: Staffy
+version: '${project.version}'
+main: me.eggzackley.staffy.Main
+authors: [ EggZackley ]
+description: Authentic Staff Plugin
+commands:
+  commands:
+    description: View player's commands
+    usage: /<command>
+    aliases:
+      - cmdlogs
+      - commandlogs
+      - commandlog
+      - cmdlog
+  cps:
+    description: View player's CPS
+    usage: /<command>
+    aliases:
+      - cpslog
+      - cpslogs
