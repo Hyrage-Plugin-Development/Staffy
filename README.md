@@ -7,6 +7,7 @@ This plugin has not completed development and consistent updates will be made
 	Staff Mode
 	Vanish
 	Staff Commands
+	Command Logs
 	Anti-Cheat Detections/Alerts
 Many more features are currently in this plugin and many more may be added during updates.
 
