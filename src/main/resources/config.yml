@@ -4,8 +4,11 @@ anti-cheat:
   # alert-permission is the permission used to alert staff members. whoever has this permission enabled will receive all anti-cheat alerts.
   alert-permission: staffy.alerts
 
-  # if custom-enchants is set to true, that means you have a plugin that uses custom, non-vanilla enchantments. Please make a ticket
-  custom-enchants: false
+  # if custom-enchants is set to true, that means you have a plugin that uses custom, non-vanilla enchantments. please make a discord
+  # ticket if your custom enchant plugin is not integrated into this plugin.
+  custom-enchants:
+    enabled: false
+    custom-enchant-plugin:
 
     # placeholders
   # ------------------------------------------------------------------
@@ -34,6 +37,7 @@ anti-cheat:
 
 mongo-db:
 
+  # NOTE: WHEN CONNECTING TO A MONGO-DB DATABASE, IF THE SAME COLLECTION NAME IS USED FOR A DIFFERENT USE, THE DATA WILL COLLIDE AND CAUSE ISSUES!
   # client is mongodb+srv://<username>:<password>@<cluster>... provided in the Connect tab on your cluster. plugin is currently limited to 1 client.
   client: ""
 
