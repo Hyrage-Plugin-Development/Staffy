@@ -14,5 +14,4 @@ CustomEnchants can be integrated, but if you do not see the CustomEnchant plugin
 
 # Links
 	Spigot - link coming soon
-  
  	Discord - https://discord.gg/32SB8PsMtB
